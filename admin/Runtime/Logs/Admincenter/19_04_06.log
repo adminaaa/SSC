@@ -1,0 +1,656 @@
+[ 2019-04-06T23:54:46+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017000s ]
+
+[ 2019-04-06T23:54:46+08:00 ] 127.0.0.1 /Public.login.do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.019000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.019000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.232000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.232000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.013000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008000s ]
+
+[ 2019-04-06T23:54:58+08:00 ] 127.0.0.1 /Public.login.do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-04-06T23:55:00+08:00 ] 127.0.0.1 /Public.login.do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.183000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.183000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-04-06T23:55:07+08:00 ] 127.0.0.1 /Public.login.do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-04-06T23:55:09+08:00 ] 127.0.0.1 /Public.login.do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-04-06T23:55:15+08:00 ] 127.0.0.1 /Public.login.do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-04-06T23:55:17+08:00 ] 127.0.0.1 /Public.login.do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-04-06T23:55:27+08:00 ] 127.0.0.1 /Public.login.do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-04-06T23:55:29+08:00 ] 127.0.0.1 /Public.login.do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-04-06T23:55:42+08:00 ] 127.0.0.1 /Public.login.do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-04-06T23:55:43+08:00 ] 127.0.0.1 /Public.login.do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-04-06T23:56:29+08:00 ] 127.0.0.1 /Public.login.do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-04-06T23:56:30+08:00 ] 127.0.0.1 /Index.index.do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.077000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-04-06T23:56:30+08:00 ] 127.0.0.1 /Tongji.gaikuang.do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: where E:\SSC\admin\app\Admincenter\Controller\TongjiController.class.php 第 232 行.
+NOTIC: [8] Undefined index: touzhuall E:\SSC\admin\app\Admincenter\Controller\TongjiController.class.php 第 256 行.
+NOTIC: [8] Undefined index: zhongjiangall E:\SSC\admin\app\Admincenter\Controller\TongjiController.class.php 第 257 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: info E:\SSC\admin\Runtime\Cache\Admincenter\759c46705abf5129023a1bd8578a4184.php 第 48 行.
+NOTIC: [8] Undefined variable: _sDate E:\SSC\admin\Runtime\Cache\Admincenter\759c46705abf5129023a1bd8578a4184.php 第 49 行.
+NOTIC: [8] Undefined variable: _eDate E:\SSC\admin\Runtime\Cache\Admincenter\759c46705abf5129023a1bd8578a4184.php 第 49 行.
+NOTIC: [8] Undefined variable: username E:\SSC\admin\Runtime\Cache\Admincenter\759c46705abf5129023a1bd8578a4184.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-04-06T23:56:35+08:00 ] 127.0.0.1 /System.setting.do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admincenter\Controller\SystemController::theme() should be compatible with Think\Controller::theme($theme) E:\SSC\admin\app\Admincenter\Controller\SystemController.class.php 第 4 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: webisopen E:\SSC\admin\Runtime\Cache\Admincenter\e2346752ba752b1b4128d368eed8cb66.php 第 75 行.
+NOTIC: [8] Undefined index: webisopen E:\SSC\admin\Runtime\Cache\Admincenter\e2346752ba752b1b4128d368eed8cb66.php 第 76 行.
+NOTIC: [8] Undefined index: webcloseinfo E:\SSC\admin\Runtime\Cache\Admincenter\e2346752ba752b1b4128d368eed8cb66.php 第 83 行.
+NOTIC: [8] Undefined index: switchbuy E:\SSC\admin\Runtime\Cache\Admincenter\e2346752ba752b1b4128d368eed8cb66.php 第 90 行.
+NOTIC: [8] Undefined index: switchbuy E:\SSC\admin\Runtime\Cache\Admincenter\e2346752ba752b1b4128d368eed8cb66.php 第 91 行.
+NOTIC: [8] Undefined index: switchdlbuy E:\SSC\admin\Runtime\Cache\Admincenter\e2346752ba752b1b4128d368eed8cb66.php 第 98 行.
+NOTIC: [8] Undefined index: switchdlbuy E:\SSC\admin\Runtime\Cache\Admincenter\e2346752ba752b1b4128d368eed8cb66.php 第 99 行.
+NOTIC: [8] Undefined index: switchzdbuy E:\SSC\admin\Runtime\Cache\Admincenter\e2346752ba752b1b4128d368eed8cb66.php 第 106 行.
+NOTIC: [8] Undefined index: switchzdbuy E:\SSC\admin\Runtime\Cache\Admincenter\e2346752ba752b1b4128d368eed8cb66.php 第 107 行.
+NOTIC: [8] Undefined index: recharge E:\SSC\admin\Runtime\Cache\Admincenter\e2346752ba752b1b4128d368eed8cb66.php 第 114 行.
+NOTIC: [8] Undefined index: recharge E:\SSC\admin\Runtime\Cache\Admincenter\e2346752ba752b1b4128d368eed8cb66.php 第 115 行.
+NOTIC: [8] Undefined index: yuanmoshi E:\SSC\admin\Runtime\Cache\Admincenter\e2346752ba752b1b4128d368eed8cb66.php 第 122 行.
+NOTIC: [8] Undefined index: jiaomoshi E:\SSC\admin\Runtime\Cache\Admincenter\e2346752ba752b1b4128d368eed8cb66.php 第 123 行.
+NOTIC: [8] Undefined index: fenmoshi E:\SSC\admin\Runtime\Cache\Admincenter\e2346752ba752b1b4128d368eed8cb66.php 第 124 行.
+NOTIC: [8] Undefined index: limoshi E:\SSC\admin\Runtime\Cache\Admincenter\e2346752ba752b1b4128d368eed8cb66.php 第 125 行.
+NOTIC: [8] Undefined index: xtclirun E:\SSC\admin\Runtime\Cache\Admincenter\e2346752ba752b1b4128d368eed8cb66.php 第 132 行.
+NOTIC: [8] Undefined index: touzhuMax E:\SSC\admin\Runtime\Cache\Admincenter\e2346752ba752b1b4128d368eed8cb66.php 第 149 行.
+NOTIC: [8] Undefined index: zhongjiangMax E:\SSC\admin\Runtime\Cache\Admincenter\e2346752ba752b1b4128d368eed8cb66.php 第 150 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-04-06T23:56:40+08:00 ] 127.0.0.1 /Index.checkspeck.do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2019-04-06T23:56:49+08:00 ] 127.0.0.1 /System.settingdo.do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admincenter\Controller\SystemController::theme() should be compatible with Think\Controller::theme($theme) E:\SSC\admin\app\Admincenter\Controller\SystemController.class.php 第 4 行.
+NOTIC: [8] Undefined index: webtitle E:\SSC\admin\app\Admincenter\Controller\SystemController.class.php 第 153 行.
+NOTIC: [8] Undefined index: keywords E:\SSC\admin\app\Admincenter\Controller\SystemController.class.php 第 153 行.
+NOTIC: [8] Undefined index: description E:\SSC\admin\app\Admincenter\Controller\SystemController.class.php 第 153 行.
+NOTIC: [8] Undefined index: iskillorder E:\SSC\admin\app\Admincenter\Controller\SystemController.class.php 第 153 行.
+NOTIC: [8] Undefined index: agent_commission_open E:\SSC\admin\app\Admincenter\Controller\SystemController.class.php 第 153 行.
+NOTIC: [8] Undefined index: fanDianMin E:\SSC\admin\app\Admincenter\Controller\SystemController.class.php 第 153 行.
+NOTIC: [8] Undefined index: sysBankMaxNum E:\SSC\admin\app\Admincenter\Controller\SystemController.class.php 第 153 行.
+NOTIC: [8] Undefined index: ritikuanxiane E:\SSC\admin\app\Admincenter\Controller\SystemController.class.php 第 153 行.
+NOTIC: [8] Undefined index: tikuanstart E:\SSC\admin\app\Admincenter\Controller\SystemController.class.php 第 153 行.
+NOTIC: [8] Undefined index: tikuanend E:\SSC\admin\app\Admincenter\Controller\SystemController.class.php 第 153 行.
+NOTIC: [8] Undefined index: tikuannumoverbilv E:\SSC\admin\app\Admincenter\Controller\SystemController.class.php 第 153 行.
+NOTIC: [8] Undefined index: tikuannumovermin E:\SSC\admin\app\Admincenter\Controller\SystemController.class.php 第 153 行.
+NOTIC: [8] Undefined index: tikuannumovermax E:\SSC\admin\app\Admincenter\Controller\SystemController.class.php 第 153 行.
+NOTIC: [8] Undefined index: kefuqq E:\SSC\admin\app\Admincenter\Controller\SystemController.class.php 第 153 行.
+NOTIC: [8] Undefined index: kefuthree E:\SSC\admin\app\Admincenter\Controller\SystemController.class.php 第 153 行.
+NOTIC: [8] Undefined index: islogincode E:\SSC\admin\app\Admincenter\Controller\SystemController.class.php 第 153 行.
+NOTIC: [8] Undefined index: isemailcode E:\SSC\admin\app\Admincenter\Controller\SystemController.class.php 第 153 行.
+NOTIC: [8] Undefined index: getemailcode E:\SSC\admin\app\Admincenter\Controller\SystemController.class.php 第 153 行.
+NOTIC: [8] Undefined index: loginerrornum_q E:\SSC\admin\app\Admincenter\Controller\SystemController.class.php 第 153 行.
+NOTIC: [8] Undefined index: loginerrorclosetime_q E:\SSC\admin\app\Admincenter\Controller\SystemController.class.php 第 153 行.
+NOTIC: [8] Undefined index: ipblackisopen E:\SSC\admin\app\Admincenter\Controller\SystemController.class.php 第 153 行.
+NOTIC: [8] Undefined index: ipblacklist E:\SSC\admin\app\Admincenter\Controller\SystemController.class.php 第 153 行.
+NOTIC: [8] Undefined index: ipwhiteisopen E:\SSC\admin\app\Admincenter\Controller\SystemController.class.php 第 153 行.
+NOTIC: [8] Undefined index: ipwhitelist E:\SSC\admin\app\Admincenter\Controller\SystemController.class.php 第 153 行.
+NOTIC: [8] Undefined index: SMTP_HOST E:\SSC\admin\app\Admincenter\Controller\SystemController.class.php 第 153 行.
+NOTIC: [8] Undefined index: SMTP_SSL E:\SSC\admin\app\Admincenter\Controller\SystemController.class.php 第 153 行.
+NOTIC: [8] Undefined index: SMTP_PORT E:\SSC\admin\app\Admincenter\Controller\SystemController.class.php 第 153 行.
+NOTIC: [8] Undefined index: FROM_EMAIL E:\SSC\admin\app\Admincenter\Controller\SystemController.class.php 第 153 行.
+NOTIC: [8] Undefined index: SMTP_USER E:\SSC\admin\app\Admincenter\Controller\SystemController.class.php 第 153 行.
+NOTIC: [8] Undefined index: FROM_NAME E:\SSC\admin\app\Admincenter\Controller\SystemController.class.php 第 153 行.
+NOTIC: [8] Undefined index: REPLY_EMAIL E:\SSC\admin\app\Admincenter\Controller\SystemController.class.php 第 153 行.
+NOTIC: [8] Undefined index: REPLY_NAME E:\SSC\admin\app\Admincenter\Controller\SystemController.class.php 第 153 行.
+NOTIC: [8] Undefined index: SMTP_PASS E:\SSC\admin\app\Admincenter\Controller\SystemController.class.php 第 153 行.
+NOTIC: [8] Undefined index: caijieapiurl E:\SSC\admin\app\Admincenter\Controller\SystemController.class.php 第 153 行.
+NOTIC: [8] Undefined index: weballowips E:\SSC\admin\app\Admincenter\Controller\SystemController.class.php 第 153 行.
+NOTIC: [8] Undefined index: czaudioplay E:\SSC\admin\app\Admincenter\Controller\SystemController.class.php 第 153 行.
+NOTIC: [8] Undefined index: czaudioplaytime E:\SSC\admin\app\Admincenter\Controller\SystemController.class.php 第 153 行.
+NOTIC: [8] Undefined index: czaudioqxtime E:\SSC\admin\app\Admincenter\Controller\SystemController.class.php 第 153 行.
+NOTIC: [8] Undefined index: tkaudioplay E:\SSC\admin\app\Admincenter\Controller\SystemController.class.php 第 153 行.
+NOTIC: [8] Undefined index: tkaudioplaytime E:\SSC\admin\app\Admincenter\Controller\SystemController.class.php 第 153 行.
+NOTIC: [8] Undefined index: cardaudioplay E:\SSC\admin\app\Admincenter\Controller\SystemController.class.php 第 153 行.
+NOTIC: [8] Undefined index: defaulttjcode E:\SSC\admin\app\Admincenter\Controller\SystemController.class.php 第 153 行.
+NOTIC: [8] Undefined index: bancountry E:\SSC\admin\app\Admincenter\Controller\SystemController.class.php 第 153 行.
+
+[ 2019-04-06T23:56:50+08:00 ] 127.0.0.1 /Index.checkspeck.do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-04-06T23:56:51+08:00 ] 127.0.0.1 /System.setting.do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admincenter\Controller\SystemController::theme() should be compatible with Think\Controller::theme($theme) E:\SSC\admin\app\Admincenter\Controller\SystemController.class.php 第 4 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: webisopen E:\SSC\admin\Runtime\Cache\Admincenter\e2346752ba752b1b4128d368eed8cb66.php 第 75 行.
+NOTIC: [8] Undefined index: webisopen E:\SSC\admin\Runtime\Cache\Admincenter\e2346752ba752b1b4128d368eed8cb66.php 第 76 行.
+NOTIC: [8] Undefined index: webcloseinfo E:\SSC\admin\Runtime\Cache\Admincenter\e2346752ba752b1b4128d368eed8cb66.php 第 83 行.
+NOTIC: [8] Undefined index: switchbuy E:\SSC\admin\Runtime\Cache\Admincenter\e2346752ba752b1b4128d368eed8cb66.php 第 90 行.
+NOTIC: [8] Undefined index: switchbuy E:\SSC\admin\Runtime\Cache\Admincenter\e2346752ba752b1b4128d368eed8cb66.php 第 91 行.
+NOTIC: [8] Undefined index: switchdlbuy E:\SSC\admin\Runtime\Cache\Admincenter\e2346752ba752b1b4128d368eed8cb66.php 第 98 行.
+NOTIC: [8] Undefined index: switchdlbuy E:\SSC\admin\Runtime\Cache\Admincenter\e2346752ba752b1b4128d368eed8cb66.php 第 99 行.
+NOTIC: [8] Undefined index: switchzdbuy E:\SSC\admin\Runtime\Cache\Admincenter\e2346752ba752b1b4128d368eed8cb66.php 第 106 行.
+NOTIC: [8] Undefined index: switchzdbuy E:\SSC\admin\Runtime\Cache\Admincenter\e2346752ba752b1b4128d368eed8cb66.php 第 107 行.
+NOTIC: [8] Undefined index: recharge E:\SSC\admin\Runtime\Cache\Admincenter\e2346752ba752b1b4128d368eed8cb66.php 第 114 行.
+NOTIC: [8] Undefined index: recharge E:\SSC\admin\Runtime\Cache\Admincenter\e2346752ba752b1b4128d368eed8cb66.php 第 115 行.
+NOTIC: [8] Undefined index: yuanmoshi E:\SSC\admin\Runtime\Cache\Admincenter\e2346752ba752b1b4128d368eed8cb66.php 第 122 行.
+NOTIC: [8] Undefined index: jiaomoshi E:\SSC\admin\Runtime\Cache\Admincenter\e2346752ba752b1b4128d368eed8cb66.php 第 123 行.
+NOTIC: [8] Undefined index: fenmoshi E:\SSC\admin\Runtime\Cache\Admincenter\e2346752ba752b1b4128d368eed8cb66.php 第 124 行.
+NOTIC: [8] Undefined index: limoshi E:\SSC\admin\Runtime\Cache\Admincenter\e2346752ba752b1b4128d368eed8cb66.php 第 125 行.
+NOTIC: [8] Undefined index: xtclirun E:\SSC\admin\Runtime\Cache\Admincenter\e2346752ba752b1b4128d368eed8cb66.php 第 132 行.
+NOTIC: [8] Undefined index: touzhuMax E:\SSC\admin\Runtime\Cache\Admincenter\e2346752ba752b1b4128d368eed8cb66.php 第 149 行.
+NOTIC: [8] Undefined index: zhongjiangMax E:\SSC\admin\Runtime\Cache\Admincenter\e2346752ba752b1b4128d368eed8cb66.php 第 150 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-04-06T23:57:00+08:00 ] 127.0.0.1 /Index.checkspeck.do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-04-06T23:57:10+08:00 ] 127.0.0.1 /Index.checkspeck.do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-04-06T23:57:20+08:00 ] 127.0.0.1 /Index.checkspeck.do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-04-06T23:57:30+08:00 ] 127.0.0.1 /Index.checkspeck.do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-04-06T23:57:40+08:00 ] 127.0.0.1 /Index.checkspeck.do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-04-06T23:57:50+08:00 ] 127.0.0.1 /Index.checkspeck.do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-04-06T23:58:00+08:00 ] 127.0.0.1 /Index.checkspeck.do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-04-06T23:58:10+08:00 ] 127.0.0.1 /Index.checkspeck.do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-04-06T23:58:21+08:00 ] 127.0.0.1 /Index.checkspeck.do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-04-06T23:58:31+08:00 ] 127.0.0.1 /Index.checkspeck.do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-04-06T23:58:41+08:00 ] 127.0.0.1 /Index.checkspeck.do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-04-06T23:58:51+08:00 ] 127.0.0.1 /Index.checkspeck.do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-04-06T23:59:01+08:00 ] 127.0.0.1 /Index.checkspeck.do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-04-06T23:59:11+08:00 ] 127.0.0.1 /Index.checkspeck.do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-04-06T23:59:21+08:00 ] 127.0.0.1 /Index.checkspeck.do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-04-06T23:59:31+08:00 ] 127.0.0.1 /Index.checkspeck.do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-04-06T23:59:41+08:00 ] 127.0.0.1 /Index.checkspeck.do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-04-06T23:59:50+08:00 ] 127.0.0.1 /Index.checkspeck.do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

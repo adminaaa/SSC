@@ -1,0 +1,3 @@
+<?php
+//000000000180a:18:{s:2:"id";s:3:"112";s:6:"typeid";s:2:"x5";s:5:"title";s:12:"大富11选5";s:6:"ftitle";s:11:"5分钟1期";s:9:"firsttime";s:0:"";s:7:"endtime";s:0:"";s:5:"qishu";s:1:"0";s:4:"name";s:6:"df11x5";s:5:"ftime";s:2:"60";s:6:"isopen";s:1:"1";s:5:"issys";s:1:"1";s:10:"closetime1";s:8:"08:30:00";s:10:"closetime2";s:8:"23:30:00";s:10:"expecttime";s:1:"5";s:4:"iswh";s:1:"0";s:6:"is_old";s:1:"0";s:7:"allsort";s:2:"12";s:9:"listorder";s:3:"112";}
+?>

@@ -1,0 +1,1 @@
+a:9:{i:0;s:2:"id";i:1;s:4:"name";i:2;s:8:"opencode";i:3;s:6:"expect";i:4;s:10:"stateadmin";i:5;s:8:"opentime";i:6;s:3:"hid";s:3:"_pk";s:2:"id";s:5:"_type";a:7:{s:2:"id";s:7:"int(11)";s:4:"name";s:8:"char(30)";s:8:"opencode";s:9:"char(180)";s:6:"expect";s:8:"char(60)";s:10:"stateadmin";s:8:"char(20)";s:8:"opentime";s:7:"int(11)";s:3:"hid";s:10:"tinyint(4)";}}

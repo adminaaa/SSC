@@ -1,0 +1,3 @@
+<?php
+//000000000300a:9:{i:0;a:3:{s:7:"groupid";s:1:"1";s:9:"groupname";s:4:"VIP1";s:6:"touhan";s:6:"农民";}i:1;a:3:{s:7:"groupid";s:1:"2";s:9:"groupname";s:4:"VIP2";s:6:"touhan";s:6:"地主";}i:2;a:3:{s:7:"groupid";s:1:"3";s:9:"groupname";s:4:"VIP3";s:6:"touhan";s:6:"知县";}i:3;a:3:{s:7:"groupid";s:1:"4";s:9:"groupname";s:4:"VIP4";s:6:"touhan";s:6:"通判";}i:4;a:3:{s:7:"groupid";s:1:"5";s:9:"groupname";s:4:"VIP5";s:6:"touhan";s:6:"知府";}i:5;a:3:{s:7:"groupid";s:1:"6";s:9:"groupname";s:4:"VIP6";s:6:"touhan";s:6:"总督";}i:6;a:3:{s:7:"groupid";s:1:"7";s:9:"groupname";s:4:"VIP7";s:6:"touhan";s:6:"巡抚";}i:7;a:3:{s:7:"groupid";s:1:"8";s:9:"groupname";s:4:"VIP8";s:6:"touhan";s:6:"丞相";}i:8;a:3:{s:7:"groupid";s:1:"9";s:9:"groupname";s:4:"VIP9";s:6:"touhan";s:6:"帝王";}}
+?>
