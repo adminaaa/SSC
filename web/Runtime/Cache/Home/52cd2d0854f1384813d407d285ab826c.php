@@ -140,7 +140,7 @@
 <div class="header head8">
    <div class="nav">
     <div class="container fix">
-     <h3><a href="/"><img style="width: 210px;" src="/903435630347672970.png" /></a></h3> 
+     <h3><a href="/"><img style="width: 210px;" src="/LOGO.png" /></a></h3>
      <!----> 
      <ul class="navItem fix flr" style="position: relative;">
       <li class="" id="navIndex"><a href="/">首页</a></li> 

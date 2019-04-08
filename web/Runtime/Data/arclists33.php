@@ -195,9 +195,9 @@ a:13:{i:0;a:6:{s:2:"id";s:2:"43";s:5:"catid";s:2:"33";s:7:"catname";s:12:"帮助
 </p>
 <div>
 	<br />
-</div>";s:7:"oddtime";s:10:"1494641072";}i:12;a:6:{s:2:"id";s:2:"55";s:5:"catid";s:2:"33";s:7:"catname";s:12:"帮助指南";s:5:"title";s:21:"二维码支付管理";s:7:"content";s:1257:"<p style="font-family:" font-size:14px;color:#666666;background-color:#ffffff;text-align:center;"=""> <span style="font-size:12px;color:#E53333;"><span style="font-weight:bolder;">手机用户：请扫图二维码，</span></span>
+</div>";s:7:"oddtime";s:10:"1494641072";}i:12;a:6:{s:2:"id";s:2:"55";s:5:"catid";s:2:"33";s:7:"catname";s:12:"帮助指南";s:5:"title";s:21:"二维码支付管理";s:7:"content";s:1250:"<p style="font-family:" font-size:14px;color:#666666;background-color:#ffffff;text-align:center;"=""> <span style="font-size:12px;color:#E53333;"><span style="font-weight:bolder;">手机用户：请扫图二维码，</span></span> 
 	</p>
-<p style="font-family:" font-size:14px;color:#666666;background-color:#ffffff;text-align:center;"=""><span style="font-size:12px;color:#E53333;"><span style="font-weight:bolder;">然后再退出页面，打开您的手机支付宝钱包，点击扫一扫，从相册提取刚才保存的这张二维码扫码，点击转账之前提交订单的金额。进行转账！转账成功后自动入款。如有遇到没到账的，请联系客服QQ:318947204</span></span> 
+<p style="font-family:" font-size:14px;color:#666666;background-color:#ffffff;text-align:center;"=""><span style="font-size:12px;color:#E53333;"><span style="font-weight:bolder;">然后再退出页面，打开您的手机支付宝钱包，点击扫一扫，从相册提取刚才保存的这张二维码扫码，点击转账之前提交订单的金额。进行转账！转账成功后自动入款。如有遇到没到账的，请联系客服QQ:000000</span></span>
 </p>
-<p style="font-family:" font-size:14px;color:#666666;background-color:#ffffff;text-align:center;"=""> <span style="font-size:12px;color:#E53333;"><span style="font-weight:bolder;">电脑用户：请直接打开您的手机支付宝钱包，点击扫一扫，直接对准二维码扫描，</span></span><span style="font-size:12px;color:#E53333;"><span style="font-weight:bolder;">点击转账之前提交订单的金额。进行转账！转账成功后自动入款。如有遇到没到账的，请联系客服QQ:318947204</span></span> 
+<p style="font-family:" font-size:14px;color:#666666;background-color:#ffffff;text-align:center;"=""> <span style="font-size:12px;color:#E53333;"><span style="font-weight:bolder;">电脑用户：请直接打开您的手机支付宝钱包，点击扫一扫，直接对准二维码扫描，</span></span><span style="font-size:12px;color:#E53333;"><span style="font-weight:bolder;">点击转账之前提交订单的金额。进行转账！转账成功后自动入款。如有遇到没到账的，请联系客服QQ:000000</span></span>
 	</p>";s:7:"oddtime";s:10:"1494641114";}}

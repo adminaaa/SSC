@@ -20,12 +20,12 @@
 	<div class="moblie_main">
 		<div class="container padding_0">
 			<div class="qr_code clearfix" style="top: 269px;left: 15px;">
-				<div class="ios pull-left">
+				<!--<div class="ios pull-left">
 					<img src="/app.png" alt="安卓二维码" style="width:120px;height:120px;">
-				</div>
+				</div>-->
 			</div>
 			<h1 class="mobile_hi">移动版</h1>
-			<p class="website">M.2S88.COM</p>
+			<p class="website">M.XXX.COM</p>
 			<div class="hand">
 				<img src="__IMG__/finger.png" alt="">
 			</div>

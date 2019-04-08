@@ -1,7 +1,9 @@
-<?php if (!defined('THINK_PATH')) exit();?>﻿<!DOCTYPE html>
-<html lang="zh">
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html lang="zh-cn">
 <head>
-	<meta charset="UTF-8">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title><?php echo GetVar('webtitle');?></title>
 	<meta name="keywords" content="<?php echo GetVar('keywords');?>" />
 	<meta name="description" content="<?php echo GetVar('description');?>" />
@@ -9,12 +11,29 @@
 	<link rel="stylesheet" href="/resources/css2/reset.css">
 	<link rel="stylesheet" href="/resources/css2/icon.css">
 	<link rel="stylesheet" href="/resources/css2/header.css">
-	<link rel="stylesheet" href="/resources/css2/mobile.css">
+	<link rel="stylesheet" href="/resources/css2/main.css">
 	<link rel="stylesheet" href="/resources/css2/footer.css">
-	<link rel="stylesheet" href="/resources/js2/layer/skin/default/layer.css">
+	<script>
+		var ISLOGIN = "<?php echo ($userinfo["id"]); ?>";
+		var WebConfigs = {
+			'ROOT' :""
+		}
+	</script>
+	<link rel="stylesheet" type="text/css" href="/resources/css/common.css" />
+	<link rel="stylesheet" type="text/css" href="/resources/css/layout.css" />
+	<link rel="stylesheet" type="text/css" href="/resources/css/style.css" />
+	<link rel="stylesheet" type="text/css" href="/resources/css/artDialog.css" />
+	<script type="text/javascript" src="/resources/js/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="/resources/js/artDialog.js"></script>
+	<script type="text/javascript" src="/resources/js/way.min.js"></script>
+	<script type="text/javascript" src="/resources/main/common.js"></script>
 	
 </head>
-<body>
+
+
+<body style="background: linear-gradient( #f3fff4, #fff) no-repeat;">
+<!--top-->
+<!--top-->
 <!--header start-->
 <script>
     var WebConfigs = {
@@ -176,40 +195,102 @@
 
     })
 </script>
-<script src="/resources/js2/require.js" data-main="/resources/js2/homePage"></script>
-	<div class="moblie_main">
-		<div class="container padding_0">
-			<div class="qr_code clearfix" style="top: 269px;left: 15px;">
-				<!--<div class="ios pull-left">
-					<img src="/app.png" alt="安卓二维码" style="width:120px;height:120px;">
-				</div>-->
-			</div>
-			<h1 class="mobile_hi">移动版</h1>
-			<p class="website">M.XXX.COM</p>
-			<div class="hand">
-				<img src="/resources/images/finger.png" alt="">
-			</div>
-			<div id="myCarousel" class="mobile_carousel slide" data-ride="carousel">
-				<div class="carousel-inner">
-					<div class="item active">
-						<img src="/resources/images/1-home.png" alt="">
-					</div>
-					<div class="item">
-						<img src="/resources/images/2-activity.png" alt="">
-					</div>
-					<div class="item">
-						<img src="/resources/images/3-find.png" alt="">
-					</div>
-					<div class="item">
-						<img src="/resources/images/4-myaccount.png" alt="">
-					</div>
-					<div class="item">
-						<img src="/resources/images/5-grade.png" alt="">
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+<!--baner-->
+
+<script type="text/javascript">
+	$(function () {
+		if ($("#kinMaxShow").size() > 0) {
+			$("#kinMaxShow").kinMaxShow({
+				height: 225,
+				intervalTime: 2,
+				button: {
+					showIndex: false,
+					normal: { marginRight: '8px', border: '0', right: '50%', bottom: '10px', borderRadius: '7px', background: '#fff' },
+					focus: { background: '#bd0d0d', border: '0' }
+				}
+			});
+		}
+		$(".bann_list li").mouseover(function () {
+			$(this).children("dl").show();
+		})
+		$(".bann_list li").mouseleave(function () {
+			$(this).children("dl").hide();
+		})
+	});
+</script>
+
+<!--navlist-->
+<!--wapper-->
+<!--最高奖金-->
+<!--是否具有投注权限,true是可以进行投注-->
+<input id="EachMaxLotteryValue" type="hidden" value="500000.00" />
+<input id="MemberBettingAuthority" type="hidden" value="False" />
+<input id="_jsurl" type="hidden" value="/templates/SSC" />   <!-- js目录 -->
+
+<script>
+	$(function () {
+		$('.refresh_money').click(function () {
+			$.ajax({
+				url:"<?php echo U('Member/refresh_money');?>",
+				type:'POST',
+				success :function (data) {
+					$('.smallmoney').html(data);
+				}
+			})
+		})
+
+	})
+</script>
+<!--wapper-->
+<div class="h35"></div>
+<div class="wapper ">
+	<div class="w1000">
+    	<div id="cookie_registerForms" class="register login_m_form b1 bg_wite">
+        	<h4>代理登录</h4>
+            <form method="post" class="ruivalidate_form_class" onsubmit="return check_login(this)" id="ruivalidate_form_class" checkby_ruivalidate url="" action="/Apublic.logindo">
+                <input type="hidden" name="action" value="register_agent" />
+                <dl>
+                	<dt>账&nbsp;&nbsp; 号：</dt>
+                    <dd>
+                    	<input  type="text"  class="text_accont" name="userName"  verify="isLoginName" isNot="true" msg="账号不能为空"/>
+                    </dd>
+                </dl>
+                <dl>
+                	<dt>密&nbsp;&nbsp; 码：</dt>
+                    <dd>
+                    	<input  type="password" class="text_accont" name="passWord" verify="isALL" isNot="true" msg="请填写6-16位，字母与数字组合的密码"/>
+                    </dd>
+                </dl>
+<!--                <dl>
+                	<dt>验证码：</dt>
+                    <dd>
+                    	<input class="text_accont" type="text" autocomplete="off" isnot="true" msg="请输入验证码" name="verCode" style="width:120px !important;"><a href="javascript:void(0)" class="two_code">
+                                    <img  src="<?php echo U('Public/verify',array('imageW'=>120,'imageH'=>35));?>"  onclick="this.src=this.src+'?temp='+ 1" /></a>
+                    </dd>
+                </dl>-->
+                <dl>
+                	
+                    <dd>
+                    	<input  type="submit" value="点击登录" class="sub_btn submit"/>
+                    </dd>
+                	
+                    <dd>
+                    	<input  type="button" value="返回会员登录" onclick="location.href='<?php echo U('Public/login');?>'" style="height: 40px;width: 140px;text-align: center;line-height: 40px;color: #FFF;background: #ea544a;font-size: 15px;font-weight: bold;margin-right: 20px; background:orange;"/>
+                    </dd>
+                </dl>
+                <dl style="padding:0;">
+                </dl>
+            </form>
+        </div>
+
+
+
+
+
+    </div>
+</div>
+<!--wapper-->
+<div class="h35"></div>
 <footer class="footer" style="clear:both">
     <div class="footer_main">
         <div class="container">
@@ -315,5 +396,99 @@
 	</div>
 </div>
 
+<div class="loginCengBox">
+	<div class="loginCeng">
+		<div class="loginCengH">
+			<h3>温馨提示</h3>
+			<span class="loginCengClose">
+				<i class="iconfont icon-guanbi-copy"></i>
+			</span>
+		</div>
+		<div class="loginCengB">
+		
+		</div>
+		<div class="loginCengF">
+			<button type="submit" >确定</button>
+		</div>
+	</div>
+</div>
+<script type="text/javascript" src="/resources/js/jquery.form.min.js"></script><!-- Jquery form表单提交 -->
+<script type="text/javascript" src="/resources/js/jquery.ruiValidate.js"></script><!-- 表单验证的js文件 -->
+<script type="text/javascript" src="/resources/js/jquery.kinMaxShow-1.1.min.js"></script>
+<script type="text/javascript">
+$(function(){
+	$("#kinMaxShow").kinMaxShow({
+		height:225,
+		intervalTime:2,
+		button:{
+			showIndex:false,
+			normal:{marginRight:'8px',border:'0',right:'50%',bottom:'10px',borderRadius:'7px',background:'#fff'},
+			focus:{background:'#bd0d0d',border:'0'}
+		}
+	});
+
+});
+</script>
+<!-- 调用插件 -->
+<script type="text/javascript">
+
+$(function(){
+	var _FormValidate = new $.rui_validate();
+	_FormValidate.initload();
+
+	_FormValidate.initForm({
+		FocusTip:true, 
+		BlurChange:true, 
+		ShowTip: "Bubble", 
+		ShowTipDirection:"right", 
+		FormObj:$("#ruivalidate_form_class"), 
+		FormIdName: 'ruivalidate_form_class',  
+		ShowTipClass:"ts_msg",    
+		ShowTipStyle:"",    
+		SubBtn:'sub_btn',   
+		CallBack: ruivalidate_form_class 
+	})
+	function ruivalidate_form_class(obj) {
+	    var _this = $(".ruivalidate_form_class .sub_btn");
+	    _sub(_this);
+	}
+
+
+
+});
+
+function check_login(obj){
+	$.post($(obj).attr('action'),$(obj).serialize(), function(json){
+		if(json.sign==1){
+			loginCengBoxFn(json.message);
+			window.location.href = "/Member.Agent";
+		}else{
+ 			if(json.message=="你的帐号已在别处登陆，是否重新登陆"){
+				if(confirm('你的帐号已在别处登陆，是否重新登陆')){
+					$.ajax({
+					url : $(obj).attr('action'),
+					type : "POST",
+					data : {
+						userName : $("input[name=userName]").val(),
+						passWord :$("input[name=passWord]").val(),
+						nocode : true,
+					},
+					success : function (json) {
+						loginCengBoxFn(json.message);
+						window.location.href = "<?php echo U('Member/Agent');?>";
+					}
+				})
+				}
+			}else{
+				loginCengBoxFn(json.message);
+			};
+		}
+	},'json');
+	return false;
+}
+
+</script>
+<script src="/resources/js2/require.js" data-main="/resources/js2/homePage"></script>
 </body>
+
 </html>
