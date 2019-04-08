@@ -34,9 +34,13 @@
 <script type="text/javascript" src="/resources/js/jquery-3.1.1.min.js"></script>
 <link rel="stylesheet" type="text/css" href="/resources/css/artDialog.css" />
 <link rel="stylesheet" type="text/css" href="/resources/css/headernav.css" />
+<link rel="stylesheet" type="text/css" href="/resources/css/fakeloader.css" />
 <script type="text/javascript" src="/resources/js/artDialog.js"></script>
 <script type="text/javascript" src="/resources/js/way.min.js"></script>
 <script type="text/javascript" src="/resources/main/common.js"></script>
+<script type="text/javascript" src="/resources/js/fakeloader.min.js?v=1"></script>
+<script src="http://cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
+<div class="fakeloader"></div>
 <header class="header" style="height:35px;">
     <div class="container claerfix">
         <div class="pull-left">
@@ -147,7 +151,7 @@
 <div class="header head8">
    <div class="nav">
     <div class="container fix">
-     <h3><a href="/"><img style="width: 210px;" src="/903435630347672970.png" /></a></h3> 
+     <h3><a href="/"><img style="width: 210px;" src="/LOGO.png" /></a></h3>
      <!----> 
      <ul class="navItem fix flr" style="position: relative;">
       <li class="" id="navIndex"><a href="/">首页</a></li> 
@@ -168,11 +172,112 @@
     </div>
    </div>
   </div>
-  
-
- 
 <script>
-    $(function () {
+    {
+        function getElementsByClass(key){
+            var arr = new Array();
+            var tags=document.getElementsByTagName("*");
+            for(var i=0;i<tags.length;i++){
+                if(tags[i].className.match(new RegExp('(\\s|^)'+key+'(\\s|$)'))){
+                    arr.push(tags[i]);
+                }
+            }
+            return arr;
+        }
+        var timer = window.setInterval(function(){
+            var el = getElementsByClass('pace');
+            if(el.length>0){
+                var a = document.createElement('div');
+                a.setAttribute('class', 'spinner');
+                var b = document.createElement('div');
+                b.setAttribute('class', 'spinner-icon');
+                el[0].appendChild(a);
+                a.appendChild(b);
+                window.clearInterval(timer);
+            }
+        }, 3);
+    }
+</script>
+<style>
+    .pace .spinner {
+        position: fixed;
+        top: 15px;
+        right: 15px;
+        z-index: 2000;
+        display: block;
+    }
+    .pace .spinner-icon {
+        width: 18px;
+        height: 18px;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        border: solid 2px transparent;
+        border-top-color: #2ecc71;
+        border-left-color: #2ecc71;
+        border-radius: 50%;
+        -webkit-animation: nprogress-spinner .4s linear infinite;
+        animation: nprogress-spinner .4s linear infinite;
+    }
+    @-webkit-keyframes nprogress-spinner {
+        0% {
+            -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+        }
+        100% {
+            -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+        }
+    }
+    @keyframes nprogress-spinner {
+        0% {
+            -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+        }
+        100% {
+            -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+        }
+    }
+    @keyframes fadeOut {
+        from {
+            opacity: 1;
+        }
+        to {
+            opacity: 0;
+        }
+    }
+    .pace {
+        -webkit-pointer-events: none;
+        pointer-events: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+        -webkit-transition: opacity 0.8s ease-in-out;
+        -moz-transition: opacity 0.8s ease-in-out;
+        -o-transition: opacity 0.8s ease-in-out;
+        transition: opacity 0.8s ease-in-out;
+    }
+    .pace-inactive {
+        opacity:0;
+        filter: alpha(opacity=0);
+    }
+    .pace .pace-progress {
+        background: #2299dd;
+        position: fixed;
+        z-index: 2000;
+        top: 0;
+        right: 100%;
+        width: 100%;
+        height: 3px;
+        box-shadow: 0 0 3px #2299dd;
+    }
+</style>
+<!-- 右上角三角
+<link href="http://cdn.bootcss.com/pace/1.0.2/themes/black/pace-theme-corner-indicator.min.css" rel="stylesheet">
+-->
+<script>
+     
+    $(function(){
         $('.refresh_money').click(function () {
             $.ajax({
                 url:"<?php echo U('Account/refreshmoney');?>",
@@ -181,10 +286,12 @@
                     $('.smallmoney').html(data);
                 }
             })
-        })
+        });
+    });
 
-    })
 </script>
+
+
 	<script src="/resources/js2/require.js" data-main="/resources/js2/homePage"></script>
 	<div class="vip_info clearfix container">
 		<div class="pull-left vip_list">

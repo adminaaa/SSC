@@ -1,18 +1,23 @@
-<?php if (!defined('THINK_PATH')) exit();?>﻿<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html lang="zh">
 <head>
-	<meta charset="UTF-8">
-	<title><?php echo GetVar('webtitle');?></title>
-	<meta name="keywords" content="<?php echo GetVar('keywords');?>" />
-	<meta name="description" content="<?php echo GetVar('description');?>" />
-	<link rel="stylesheet" href="/resources/css2/bootstrap.min.css">
-	<link rel="stylesheet" href="/resources/css2/reset.css">
-	<link rel="stylesheet" href="/resources/css2/icon.css">
-	<link rel="stylesheet" href="/resources/css2/header.css">
-	<link rel="stylesheet" href="/resources/css2/mobile.css">
-	<link rel="stylesheet" href="/resources/css2/footer.css">
-	<link rel="stylesheet" href="/resources/js2/layer/skin/default/layer.css">
-	
+    <meta charset="UTF-8">
+    <title><?php echo GetVar('webtitle');?></title>
+    <meta name="keywords" content="<?php echo GetVar('keywords');?>" />
+    <meta name="description" content="<?php echo GetVar('description');?>" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+
+    <link rel="stylesheet" href="/resources/css2/bootstrap.min.css">
+    <link rel="stylesheet" href="/resources/css2/reset.css">
+    <link rel="stylesheet" href="/resources/css2/icon.css">
+    <link rel="stylesheet" href="/resources/css2/header.css">
+    <link rel="stylesheet" href="/resources/css2/bankCard.css">
+    <link rel="stylesheet" href="/resources/css2/userInfo.css">
+    <link rel="stylesheet" href="/resources/css2/footer.css">
+    <link rel="stylesheet" href="/resources/js2/layer/skin/default/layer.css">
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_i3jm0mkwlui8uxr.css">
+    
+
 </head>
 <body>
 <!--header start-->
@@ -281,39 +286,53 @@
 <link href="http://cdn.bootcss.com/pace/1.0.2/themes/black/pace-theme-corner-indicator.min.css" rel="stylesheet">
 -->
 <script src="/resources/js2/require.js" data-main="/resources/js2/homePage"></script>
-	<div class="moblie_main">
-		<div class="container padding_0">
-			<div class="qr_code clearfix" style="top: 269px;left: 15px;">
-				<!--<div class="ios pull-left">
-					<img src="/app.png" alt="安卓二维码" style="width:120px;height:120px;">
-				</div>-->
-			</div>
-			<h1 class="mobile_hi">移动版</h1>
-			<p class="website">M.XXX.COM</p>
-			<div class="hand">
-				<img src="/resources/images/finger.png" alt="">
-			</div>
-			<div id="myCarousel" class="mobile_carousel slide" data-ride="carousel">
-				<div class="carousel-inner">
-					<div class="item active">
-						<img src="/resources/images/1-home.png" alt="">
-					</div>
-					<div class="item">
-						<img src="/resources/images/2-activity.png" alt="">
-					</div>
-					<div class="item">
-						<img src="/resources/images/3-find.png" alt="">
-					</div>
-					<div class="item">
-						<img src="/resources/images/4-myaccount.png" alt="">
-					</div>
-					<div class="item">
-						<img src="/resources/images/5-grade.png" alt="">
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+<div class="vip_info clearfix container">
+    <div class="pull-left vip_list">
+    <div class="user_list_ad">
+        <h3><i class="iconfont">&#xe61e;</i> 账号管理</h3>
+        <a href="<?php echo U('Member/ziliao');?>">个人信息</a>
+        <a href="<?php echo U('Member/index');?>">安全中心</a>
+        <a href="<?php echo U('Member/bankcard');?>">银行卡管理</a>
+    </div>
+	 <div class="user_list_ad">
+        <h3><i class="iconfont">&#xe61e;</i> 额度管理</h3>
+        <a href="<?php echo U('Member/quota');?>">额度转让</a>
+  
+    </div>
+    <div class="user_list_ad">
+        <h3><i class="iconfont">&#xe61e;</i> 投注管理</h3>
+        <a href="<?php echo U('Member/betRecord');?>">投注记录</a>
+     <!--   <a href="seekRecord.html">追号记录</a>-->
+    </div>
+    <div class="user_list_ad">
+        <h3><i class="iconfont">&#xe61e;</i> 资金管理</h3>
+        <a href="<?php echo U('Account/dealRecord');?>">交易记录</a>
+        <a href="<?php echo U('Account/todayLoss');?>">今日盈亏</a>
+    </div>
+    <div class="user_list_ad">
+        <h3><i class="iconfont">&#xe61e;</i> 消息管理</h3>
+       <!-- <a href="<?php echo U('Member/stationMail');?>">站内信</a>-->
+        <a href="<?php echo U('Home/Member/gglist');?>">网站公告</a>
+    </div>
+</div>
+    <div class="pull-right vip_info_pan">
+        <div class="vip_info_title">
+            网站公告
+        </div>
+        <div class="vip_info_content bankCard_main">
+            <div class="bankcard_item_box clearfix">
+                <ul>
+                    <?php if(is_array($gglist)): $k = 0; $__LIST__ = $gglist;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($k % 2 );++$k;?><li class="help_li">
+                        <p class="help_list_name">
+                            <span class="num"><?php echo ($k); ?>.</span>
+                            <a href="<?php echo U('Member/ggshow',array('aid'=>$vo['id']));?>"><?php echo ($vo[title]); ?></a>
+                        </p>
+                    </li><?php endforeach; endif; else: echo "" ;endif; ?>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
 <footer class="footer" style="clear:both">
     <div class="footer_main">
         <div class="container">
@@ -420,5 +439,23 @@
 </div>
 
 
+<!--<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">温馨提示</h4>
+            </div>
+            <div class="modal-body">
+                您还未设置资金密码，请先设置资金密码?
+                <div>（资金密码用于提现等操作，可保障资金安全）</div>
+            </div>
+            <div class="modal-footer">
+                <a href="setSecurity.html" class="btn btn-default login_btn">确认</a>
+                <a href="" class="btn btn-default register_btn">取消</a>
+            </div>
+        </div>
+    </div>
+</div>-->
 </body>
 </html>

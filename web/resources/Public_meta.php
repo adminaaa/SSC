@@ -8,3 +8,4 @@
 <script type="text/javascript" src="__ROOT__/resources/js/way.min.js"></script>
 <script type="text/javascript" src="__ROOT__/resources/main/common.js"></script>
 <script type="text/javascript" src="__ROOT__/resources/main/index.js"></script>
+

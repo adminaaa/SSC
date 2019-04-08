@@ -1,18 +1,27 @@
-<?php if (!defined('THINK_PATH')) exit();?>﻿<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html lang="zh">
 <head>
 	<meta charset="UTF-8">
 	<title><?php echo GetVar('webtitle');?></title>
 	<meta name="keywords" content="<?php echo GetVar('keywords');?>" />
 	<meta name="description" content="<?php echo GetVar('description');?>" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" >
+
 	<link rel="stylesheet" href="/resources/css2/bootstrap.min.css">
 	<link rel="stylesheet" href="/resources/css2/reset.css">
 	<link rel="stylesheet" href="/resources/css2/icon.css">
 	<link rel="stylesheet" href="/resources/css2/header.css">
-	<link rel="stylesheet" href="/resources/css2/mobile.css">
+	<link rel="stylesheet" href="/resources/css2/record.css">
+	<link rel="stylesheet" href="/resources/css2/userInfo.css">
 	<link rel="stylesheet" href="/resources/css2/footer.css">
 	<link rel="stylesheet" href="/resources/js2/layer/skin/default/layer.css">
-	
+	<script type="text/javascript" src="/resources/js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="/resources/js/artDialog.js"></script>
+
+	<script>
+		var ISLOGIN = "<?php echo ($userinfo["id"]); ?>";
+	</script>
+	<script src="/resources/js/index.js"></script>
 </head>
 <body>
 <!--header start-->
@@ -216,7 +225,7 @@
         height: 35px;
         -webkit-box-sizing: border-box;
         box-sizing: border-box;
-        border: solid 2px transparent;  
+        border: solid 6px transparent;  
         border-top-color: #2ecc71;
         border-left-color: #2ecc71;
         border-radius: 50%;
@@ -280,37 +289,87 @@
 <!-- 右上角三角
 <link href="http://cdn.bootcss.com/pace/1.0.2/themes/black/pace-theme-corner-indicator.min.css" rel="stylesheet">
 -->
-<script src="/resources/js2/require.js" data-main="/resources/js2/homePage"></script>
-	<div class="moblie_main">
-		<div class="container padding_0">
-			<div class="qr_code clearfix" style="top: 269px;left: 15px;">
-				<!--<div class="ios pull-left">
-					<img src="/app.png" alt="安卓二维码" style="width:120px;height:120px;">
-				</div>-->
+	<script src="/resources/js2/require.js" data-main="/resources/js2/homePage"></script>
+	<div class="vip_info clearfix container">
+		<div class="pull-left vip_list">
+    <div class="user_list_ad">
+        <h3><i class="iconfont">&#xe61e;</i> 账号管理</h3>
+        <a href="<?php echo U('Member/ziliao');?>">个人信息</a>
+        <a href="<?php echo U('Member/index');?>">安全中心</a>
+        <a href="<?php echo U('Member/bankcard');?>">银行卡管理</a>
+    </div>
+	 <div class="user_list_ad">
+        <h3><i class="iconfont">&#xe61e;</i> 额度管理</h3>
+        <a href="<?php echo U('Member/quota');?>">额度转让</a>
+  
+    </div>
+    <div class="user_list_ad">
+        <h3><i class="iconfont">&#xe61e;</i> 投注管理</h3>
+        <a href="<?php echo U('Member/betRecord');?>">投注记录</a>
+     <!--   <a href="seekRecord.html">追号记录</a>-->
+    </div>
+    <div class="user_list_ad">
+        <h3><i class="iconfont">&#xe61e;</i> 资金管理</h3>
+        <a href="<?php echo U('Account/dealRecord');?>">交易记录</a>
+        <a href="<?php echo U('Account/todayLoss');?>">今日盈亏</a>
+    </div>
+    <div class="user_list_ad">
+        <h3><i class="iconfont">&#xe61e;</i> 消息管理</h3>
+       <!-- <a href="<?php echo U('Member/stationMail');?>">站内信</a>-->
+        <a href="<?php echo U('Home/Member/gglist');?>">网站公告</a>
+    </div>
+</div>
+		<div class="pull-right vip_info_pan">
+			<div class="vip_info_title">
 			</div>
-			<h1 class="mobile_hi">移动版</h1>
-			<p class="website">M.XXX.COM</p>
-			<div class="hand">
-				<img src="/resources/images/finger.png" alt="">
-			</div>
-			<div id="myCarousel" class="mobile_carousel slide" data-ride="carousel">
-				<div class="carousel-inner">
-					<div class="item active">
-						<img src="/resources/images/1-home.png" alt="">
-					</div>
-					<div class="item">
-						<img src="/resources/images/2-activity.png" alt="">
-					</div>
-					<div class="item">
-						<img src="/resources/images/3-find.png" alt="">
-					</div>
-					<div class="item">
-						<img src="/resources/images/4-myaccount.png" alt="">
-					</div>
-					<div class="item">
-						<img src="/resources/images/5-grade.png" alt="">
-					</div>
+			<div class="vip_info_content betRecord_main">
+				<div class="betRecord_top">
+					<span>帐户余额：<em><?php echo ($balance); ?>元</em></span>
+					<span>AG余额：<em ><i class="ag"><?php echo ($agBalance); ?></i>元</em></span>
+					<span>BB余额：<em ><i class="bbin"><?php echo ($bbBalance); ?></i>元</em></span>
+					<span>体育余额：<em ><i class="ss"><?php echo ($ssBalance); ?></i>元</em></span>					
+					<span>开元余额：<em ><i class="ky"><?php echo ($kyBalance); ?></i>元</em></span>
 				</div>
+				<div class="betRecord_tab clearfix" style="height:auto">
+					<div class="category >
+						<em class="tle">转让类型：</em>
+						<div class="form-group">
+							<select name="quota_type" id="quota_type"  class="form-control" id="" style="width:150px">
+								<option value="0">==请选择==</option> 
+								<option value="1">主账号至AG</option>
+								<option value="3">主账号至BB</option>	
+								<option value="5">主账号至体育</option> 								
+								<option value="7">主账号至开元</option> 
+								<option value="2">AG至主账号</option> 								
+								<option value="4">BB至主账号</option> 
+								<option value="6">体育主账号至</option> 								
+								<option value="8">开元至主账号</option> 		
+								
+							</select>
+						</div>
+					</div>
+					<div class="category >
+						<em class="tle">转让额度：</em>
+						<div class="form-group">
+						
+							<input type ="number" name="amout" id="amout" onkeyup="this.value=this.value.replace(/[^\d]/g,'');"
+							style="border-radius: 4px;border: 1px solid #cccccc;padding: 0px 5px;width: 280px;height: 36px;background-color: #fff;color: #A9A9A9;font-size: 12px;"/>
+						</div>
+					</div>
+					<div class="category >
+						
+						<div class="form-group">
+						<input value="转让" class="btn-danger active sub_btn btn-sm" id="save" style="width:8em;height:2.3em;font-size: 1.3em" type="button">
+							
+						<input value="刷新" class=" active sub_btn btn-sm" id="refresh" style="width:6em;height:2.3em;font-size: 1.3em;" type="button">
+						</div>
+					</div>
+				
+				</div>
+				
+				
+
+
 			</div>
 		</div>
 	</div>
@@ -419,6 +478,69 @@
 	</div>
 </div>
 
+
+
+
+<script type="text/javascript" src="/resources/js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="/resources/js/artDialog.js"></script>
+	<script type="text/javascript" src="/resources/js/index.js"></script> 
+<script>
+     $(function(){
+		 $("#refresh").click(function(){
+			  window.location.reload(true) ;
+		 });
+		$("#save").click(function(){
+			var quota_type=$("#quota_type").val();
+			if(quota_type<=0){
+				loginCengBoxFn("请选择额度转让类型");
+				return false;
+				
+			}
+			var amout=$("#amout").val();
+			if(quota_type==1||quota_type==2){
+				var type='ag';
+			}
+			if(quota_type==3||quota_type==4){
+				var type='bbin';
+			}
+			if(quota_type==5||quota_type==6){
+				var type='ss';
+			}			
+				if(quota_type==7||quota_type==8){
+				var type='ky';
+			}
+			$(this).unbind("click");
+			if(quota_type==1||quota_type==3||quota_type==5||quota_type==7){
+				$.post("<?php echo U('Zhenren/deposit');?>",{type:type,amount:amout},function(data){
+					
+					console.log(data);
+					if(data.code==1){
+						loginCengBoxFn("转让成功");
+						 window.location.reload(true) ;
+					}else{
+						$(this).bind("click");
+						loginCengBoxFn("转换失败");
+					}
+				});
+			}
+			if(quota_type==2||quota_type==4||quota_type==6||quota_type==8){
+				$.post("<?php echo U('Zhenren/withdrawal');?>",{type:type,amount:amout},function(data){
+					if(data.code==1){
+						loginCengBoxFn("转让成功");
+						 window.location.reload(true) ;
+					}else{
+						$(this).bind("click");
+						loginCengBoxFn("转换失败");
+					}
+				});
+			}
+			
+		});
+		
+	 
+	 });
+	
+</script>
 
 </body>
 </html>
